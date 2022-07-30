@@ -1,0 +1,74 @@
+
+<div class="redes">
+  <img alt="logo AP" src="./assets/pictures/APLogo-20-20.png" width="20%" height="20%">
+  
+  <div id="facebook">
+    <a href="https://www.facebook.com/profilepolaris" aria-hidden="true"> 
+      <img [src]="miPortfolio.facebook" width="50px" height="50px"></a>
+    </div>
+  
+  <div id="instagram">
+    <a href="https://www.instagram.com/_yanina22_/" aria-hidden="true"> 
+      <img [src]="miPortfolio.instagram" width="50px" height="50px"></a>
+  </div>
+ 
+  <div id="ingreso">
+  <button type="button" class="btn btn-light">INGRESAR</button>
+  </div>
+  </div>
+
+
+<div class="cajita">
+    <div id="background"><img alt="imagenDeFondo" class="fondo" [src]="miPortfolio.backImage"  width="100%" height="100%" /></div>
+  
+<img alt="fotoDePerfil" class="circular--square" [src]="miPortfolio.profileImage" />
+
+        <aside>
+    <h2>Acerca de mi:</h2>
+    
+             <div id="text-acercademi">
+      <div class="btn-edit" onclick="cambiar_parrafo()"> 
+        <a href="#" aria-hidden="true" class="btn-right"> 
+        <i class="fa fa-pen"></i>
+        </a>
+      </div>
+
+      <p>Brenda Rodriguez</p>
+      <p>{{miPortfolio.phone}}</p>
+      <p>{{miPortfolio.title}}</p>
+      <p>{{miPortfolio.ubication}}</p>
+    </div>
+
+    <div>
+      <input id="edit-acercademi" type="text" oninput="myfuction2(this.value)" style="display:none">
+    </div>
+
+            <p> <a href="brendayanina22@gmail.com">Email</a> </p>
+  </aside>
+</div>
+
+<br>
+
+<script>
+function cambiar_parrafo(){
+  document.getElementById("edit-acercademi").style.display="block";
+  let texto =  document.getElementById("text-acercademi").innerText;
+  console.log(texto);
+};
+
+function myfuction2(valor){
+  document.getElementById("text-acercademi").innerText=valor;
+};
+
+function logMessage(message) {
+  console.log(message + "<br>");
+}
+
+let textarea=document.getElementById("edit-acercademi")
+textarea.addEventListener('keyup', (e) => {
+  logMessage('key "${e.key}" released [event:keyup]');
+  if (e.key == "Enter"){
+    document.getElementById("edit-acercademi").style.display="none"
+  }
+});
+</script>

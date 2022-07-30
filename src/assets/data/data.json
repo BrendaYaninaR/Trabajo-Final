@@ -1,0 +1,46 @@
+{
+    "name": "Brenda Yanina Rodriguez",
+    "phone": "Celular 3834983878",
+    "title": "Full Stack Developer Jr.",
+    "ubication": "Catamarca-Argentina",
+    "backImage": "./assets/pictures/fondo.jpg",
+    "profileImage": "./assets/pictures/fotoPerfil.jpg",
+    "instagram": "./assets/pictures/insta.png",
+    "facebook": "./assets/pictures/face.png",
+    "logo": "./assets/pictures/APLogo-20-20.png",
+
+    "University": "Universidad nacional de Catamarca (UNCa)",
+    "ImageU": "./assets/pictures/unca.jpg",
+    "startFinish": "2010-2015",
+    "TitleU": "Tec. en Hemoterapia - Finalizada",
+
+    "Instituto": "Instituto Nacional de Tecnologia Industrial",
+    "ImageI": "./assets/pictures/inti.png",
+    "startfinishI": "2021-2022",
+    "titleI": "Full Stack Developer Jr",
+
+    "Hospital": "Maternidad provincial 25 de Mayo",
+    "ImageH": "./assets/pictures/maternidad.jpg",
+    "jobH":"Toma, recepción y procesamiento de muestras. Entrevistas a donantes",
+    "startH": "2015",
+    "timeElapsed": "(marzo - diciembre)",
+
+    "place": "Izzi Pizza",
+    "ImageP": "./assets/pictures/izi.jpg",
+    "jobP": "Encargada de local, e-commerce y marketing",
+    "startP": "2019",
+    "finishP": "Actualidad",
+
+    "placeS": "Sindicato de Obreros y Empleados Municipales",
+    "ImageS": "./assets/pictures/soem.png",
+    "jobS": "Operadora tecnica y productora. Editora de video y audio (RADIO SOEM)",
+    "startS": "enero 2022",
+    "finishS": "actualidad",
+
+    "nombreW": "Portfolio web",
+    "fechaW": "31/07/2022",
+    "descripcionW": "Trabajo final del curso Argentina programa",
+    "foto01": "./assets/pictures/foto1.jpg",
+    "foto02": "./assets/pictures/foto2.jpg",
+    "foto03": "./assets/pictures/foto3.jpg"
+}
