@@ -9,6 +9,9 @@ import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component'
 import { ProyectPieComponent } from './componentes/proyect-pie/proyect-pie.component';
 import { PortfolioService } from './servicios/portfolio.service';
 import { HttpClientModule } from '@angular/common/http';
+import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
+import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,13 +19,18 @@ import { HttpClientModule } from '@angular/common/http';
     EncabezadoComponent,
     EduExpComponent,
     AptitudesComponent,
-    ProyectPieComponent
+    ProyectPieComponent,
+    PortfolioComponent,
+    IniciarSesionComponent,
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
